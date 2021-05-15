@@ -1,0 +1,69 @@
+.charactersimg {
+	display: inline-block;
+
+	text-align: center;
+
+	margin-top: 50px;
+}
+
+.charactersimg > div {
+	display: inline-block;
+
+	margin-left: 80px;
+	margin-right: 90px;
+}
+
+.charactersimg div > hr {
+	border: 0;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin-top: 5px;
+}
+
+
+.charactersimg img {
+	width: 200px;
+	height: 250px;
+
+	border: 4px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+
+	transition: border 0.2s ease-in-out;
+}
+
+.charactersimg img:hover {
+	border: 4px solid rgba(148, 0, 211, 1);
+}
+
+.charactersimg p {
+	color: white;
+	font-size: 24px;
+}
+
+.characterinfo p {
+	color: white;
+	font-size: 18px;
+
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.characterinfo {
+	width: 300px;
+	height: 190px;
+
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 200px) and (max-width: 1280px) {
+
+.charactersimg > div {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+}

@@ -1,0 +1,171 @@
+.aboutauthorblock {
+	width: 1300px;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+
+	margin: 20px auto;
+
+	position: relative;
+}
+
+.authoralign {
+	text-align: center;
+}
+
+.authortitle {
+	color: white;
+
+	font-size: 24px;
+
+	padding-top: 5px;
+}
+
+.attline {
+	border: 0;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	margin-top: 35px;
+}
+
+.aboutauthortext {
+	padding: 10px 15px 15px 20px;
+
+	color: white;
+
+	font-size: 20px;
+}
+
+.authorcaption {
+	color: white;
+	font-size: 20px;
+
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.authorcaption img {
+	width: 250px;
+	height: 350px;
+}
+
+.borderright {
+	position: absolute;
+
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+
+	margin-left: 450px;
+
+	height: 545px;
+}
+
+.authorbio {
+	color: white;
+
+	width: 790px;
+	margin-left: 480px;
+	margin-top: 20px;
+
+	font-size: 20px;
+
+	position: absolute;
+
+	text-align: justify;
+}
+
+.authorbioadapt {
+	display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1280px) {
+.aboutauthorblock {
+	width: 100%;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+
+	margin: 20px auto;
+
+	position: relative;
+}
+.authorbio {
+	color: white;
+
+	width: 750px;
+	margin-left: 480px;
+	margin-top: 20px;
+
+	font-size: 20px;
+
+	position: absolute;
+
+	text-align: justify;
+}
+.attline {
+	border: 0;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	margin-top: 80px;
+}
+
+.borderright {
+	position: absolute;
+
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+
+	margin-left: 450px;
+
+	height: 590px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-height: 480px) {
+.aboutauthorblock {
+	width: 900px;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+
+	margin: 20px auto;
+
+	position: relative;
+}
+
+.authorcaption img {
+	width: 210px;
+	height: 300px;
+}
+
+.authorbio { display: none; }
+.authorbioadapt {
+	color: white;
+	display: block;
+
+	width: 500px;
+	margin-left: 380px;
+	margin-top: 20px;
+
+	font-size: 24px;
+
+	position: absolute;
+
+	text-align: justify;
+}
+
+.attline {
+	border: 0;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	margin-top: 200px;
+}
+
+.title {
+	width: 100%;
+	margin: 0 auto;
+}
+
+}

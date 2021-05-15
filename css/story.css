@@ -1,0 +1,143 @@
+.story {
+	margin-top: 15px;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 730px;
+}
+
+.storytext {
+	color: white;
+	font-size: 20px;
+}
+
+.storytale {
+	padding: 10px 0 0 15px;
+}
+
+.part1 {
+	width: 915px;
+
+	float: left;
+
+	text-align: justify;
+}
+
+.part1 > img {
+	width: 330px;
+	height: 212px;
+
+	float: left;
+
+	margin-right: 15px;
+
+	border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.part1 > .storytext > img {
+	width: 300px;
+	height: 180px;
+
+	float: right;
+
+	margin-bottom: 5px;
+	margin-left: 15px;
+
+	border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.part2 img {
+	width: 330px;
+	height: 200px;
+
+	float: right;
+
+	margin-left: 20px;
+
+	border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.part2 {
+	width: 900px;
+
+	float: left;
+
+	margin-left: 50px;
+
+	text-align: justify;
+}
+
+.parttitle {
+	text-align: center;
+
+	margin-bottom: 10px;
+
+	font-size: 24px;
+	color: white;
+}
+
+.titlelinestory {
+	border: 0;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	margin-bottom: 10px;
+}
+
+.glava1 {
+	float: left;
+
+	width: 400px;
+	height: 280px;
+
+	margin: 0 4px 0 0;
+}
+
+.storytextadaptive {
+	color: white;
+	font-size: 20px;
+
+	display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1280px) {
+	.story {
+		margin-top: 15px;
+
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 890px;
+	}
+
+	.part1 {
+		width: 595px;
+
+		float: left;
+
+		text-align: justify;
+	}
+
+	.part2 {
+		width: 580px;
+
+		float: left;
+
+		margin-left: 50px;
+
+		text-align: justify;
+	}
+
+	.part1 > img {
+		display: none;
+	}
+
+	.part2 img {
+		display: none;
+	}
+
+	.storytext {
+		display: none;
+	}
+
+	.storytextadaptive {
+		display: block;
+	}
+}
